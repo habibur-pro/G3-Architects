@@ -1,0 +1,80 @@
+/* utilities */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.primary-btn{
+    background: #FF900E;
+    border-radius: 8px;
+    padding:21px 25px;
+    color: white;
+    border: none;
+    font-size:20px;
+    height: 64px;
+}
+
+/* header styles */
+header{
+    background-color: #ff900e1a;
+}
+.brand-name{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    /* justify-content: space-between; */
+}
+nav ul li{
+    list-style: none;
+    font-size:18px;
+    color:#424242;
+    margin-right: 40px;
+    cursor: pointer;
+}
+nav ul li:hover{
+    text-decoration: underline;
+}
+/* banner styles 
+ */
+
+ .banner{
+    text-align: center;
+ }
+ .banner-info{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 110px;
+    padding-bottom: 50px;
+ }
+ .banner-title{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-bottom: 20px;
+ }
+ .banner-description{
+    font-size:16px;
+    color: #727272;
+ }
+ .banner-btn{
+    margin-top: 30px;
+ }
+ .banner-img{
+    width: 100%;
+    padding-bottom: 45px;
+ }
