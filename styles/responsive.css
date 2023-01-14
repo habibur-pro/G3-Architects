@@ -2,6 +2,9 @@
     .container{
         width: 100%;
     }
+    img{
+        width: 100%;
+    }
     nav,nav ul{
         flex-direction: column;
         text-align: center;
@@ -13,7 +16,7 @@
         text-align: center;
     }
   /* quick-lists responsive styles  */
-  .quick-lists{
+  .quick-lists,.features{
     flex-direction: column;
     
   }
@@ -28,5 +31,19 @@
     margin-bottom:  30px;
     padding-left: 15px;
     
+  }
+  .feature-img-box{
+    width: 100%;
+    
+  }
+  .features-info{
+    padding-left: 20px;
+  }
+  .feature-item{
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .experience-highlight{
+    display: none;
   }
 }
