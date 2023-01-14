@@ -176,3 +176,42 @@ nav ul li:hover{
     font-size: 20px;
     font-weight: 400;
 }
+/* achievements section styles  */
+.achievement-info{
+   width: 50%;
+}
+.achievement-info> h2{
+   margin-bottom: 20px;
+}
+.achievement-items{
+   margin-top:100px ;
+   display: grid;
+   gap: 120px;
+   grid-template-columns: repeat(4,1fr);
+}
+.achievement-item{
+   border:2px solid #FF900E;
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 37px 10px;
+   text-align: center;
+}
+.achievement-item:hover.achievement-item img{
+   transform: scale(1.3);
+   transition: .1s;
+   
+}
+.achievement-item img{
+   width: 45px;
+}
+.achievement-item h3{
+   font-size: 45px;
+   
+}
+.achievement-item p{
+   font-size: 20px;
+
+}
