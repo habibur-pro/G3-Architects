@@ -88,24 +88,24 @@ nav ul li:hover{
     width: 100%;
     padding-bottom: 45px;
  }
- /* Feature section styles */
- .fetures{
-    padding-left: 20px;
+ /* quick-list section styles */
+ .quick-lists{
+    /* padding-left: 20px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
  }
- .feature-images{
+ .quick-list-images{
     width: 55%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap:24px;
  }
- .feature-images img{
+ .quick-list-images img{
     width: 100%;
     height: 100%;
  }
- .feature-info{
+ .quick-list-info{
     width: 40%;
  }
  .text-gray{
@@ -115,7 +115,7 @@ nav ul li:hover{
  .text-orange{
     color: #FF900E;
  }
- .feature-description{
+ .quick-list-description{
    color: #727272;
    font-size: 16px;
    line-height: 26px;
