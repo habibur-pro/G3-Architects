@@ -1,7 +1,7 @@
 @media screen and (max-width:576px) {
     .container{
         width: 100%;
-        padding: 10px;
+        
     }
     img{
         width: 100%;
@@ -30,7 +30,7 @@
     width: 100%;
     order: 1;
     margin-bottom:  30px;
-    padding-left: 15px;
+    /* padding-left: 15px; */
     
   }
   .feature-img-box{
@@ -57,7 +57,7 @@
   }
   .achievement-info,.sponspors-info{
     width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
     margin-top: 10px;
   }
   .companies .company{
