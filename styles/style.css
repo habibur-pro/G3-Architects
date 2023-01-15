@@ -139,6 +139,9 @@ nav ul li:hover{
     padding-left: 10px;
     
  }
+ .features-info{
+   width: 50%;
+ }
  .features-info .features-info-description{
     color: #727272;
     font-size: 16px;
@@ -159,6 +162,10 @@ nav ul li:hover{
     width: 50%;
     position: relative;
 
+}
+.feature-img-box img{
+   height: 100%;
+   width: 100%;
 }
 .experience-highlight{
     font-size: 65px;
